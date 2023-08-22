@@ -1,0 +1,129 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    border: 0px;
+}
+
+.main-container {
+
+    width: 1130px;
+    height: 900px;
+    margin: 0px auto;
+    background-color: whitesmoke;
+}
+
+.header {
+    width: 100%;
+    height: auto;
+
+}
+
+.header-col1 {
+    width: 100%;
+    height: 100px;
+    background-color: whitesmoke;
+
+}
+
+.header-col2 {
+    width: 600px;
+    height: 100px;
+    background-color: whitesmoke;
+
+}
+
+.nav-bar {
+    width: 100%;
+    height: 40px;
+    background-color: #162840;
+}
+
+.top-button {
+    background-color: #162840;
+    color: white;
+    padding: 5.5px;
+    border-radius: 2.5px;
+    margin-right: 80px;
+}
+
+.top-button :hover {
+
+    color: gold;
+
+}
+
+.home {
+    margin-right: 0.5px;
+
+}
+
+.logo {
+    margin-left: 25px;
+    width: 90%;
+}
+
+.login {
+    margin-top: 30px;
+    margin-right: -140px;
+    width: 140px;
+}
+
+.nav-bar {
+
+    display: flex;
+    color: white;
+    align-items: center;
+    text-decoration: none;
+
+
+}
+
+.np {
+
+    margin-right: 20px;
+    margin-left: 10px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: white;
+    text-decoration: none;
+}
+
+.np :hover {
+    background-color: gold;
+    color: black;
+    text-decoration: none;
+
+}
+
+.np a {
+    text-decoration: none;
+    color: white;
+}
+.banner {
+    width: 100%;
+    height: 350px;
+    background-color: #162840;
+
+    margin-top: 1px;
+
+} 
+
+.content-container .col-1, .content-container .col-2, .content-container .col-3{
+    float: left;
+    margin-left:0.33%;
+}
+.content-container .col-1{
+    width: 41%;
+}
+.content-container .col-2{
+    width:33%;
+}
+.content-container .col-3{
+    width: 25%;
+}
+.content-container .col-heading{
+    background-color: #162840;
+    height: 50px;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    margin-top: 15px;
+}
